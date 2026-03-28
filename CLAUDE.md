@@ -5,7 +5,7 @@
 A Retrieval-Augmented Generation (RAG) chatbot that answers questions about NLP research papers.
 Built as a CV/portfolio project to showcase AI Engineering expertise.
 
-**GitHub Repo:** `nlp-rag-agent` (to be linked once created)
+**GitHub Repo:** https://github.com/saad722311/nlp-rag-agent
 **Owner:** Muhammad Saad
 **Purpose:** Portfolio project — demonstrates RAG pipeline, LangChain, local LLMs, vector DBs
 
