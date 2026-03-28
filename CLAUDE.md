@@ -75,7 +75,7 @@ RAG-chatbot/
 ---
 
 ### Iteration 2 — RAG Chain + CLI
-**Status:** Not started
+**Status:** Complete
 **Goal:** Query ChromaDB → build prompt → LLM answer → show sources
 **Files:** `src/retriever.py`, `src/chain.py`
 **Key decisions:**
@@ -113,9 +113,9 @@ RAG-chatbot/
 
 ## Current Status
 
-**Active Iteration:** Iteration 2 — RAG Chain + CLI
-**Last GitHub Push:** Iteration 1
-**Next Action:** Build retriever.py + chain.py, test Q&A in terminal
+**Active Iteration:** Iteration 3 — Streamlit UI
+**Last GitHub Push:** Iteration 2
+**Next Action:** Build app.py with chat UI, source display, ArXiv fetcher in sidebar
 
 ---
 
@@ -130,6 +130,9 @@ python src/arxiv_fetcher.py
 
 # Step 2: Ingest into ChromaDB
 python src/ingest.py
+
+# Step 3: Run CLI chat
+python cli.py
 ```
 
 ---

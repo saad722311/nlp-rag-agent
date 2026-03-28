@@ -8,7 +8,7 @@ import os
 import fitz  # PyMuPDF
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 
 PAPERS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "papers")
 CHROMA_DIR = os.path.join(os.path.dirname(__file__), "..", "chroma_db")
