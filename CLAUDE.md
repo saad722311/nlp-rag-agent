@@ -64,7 +64,7 @@ RAG-chatbot/
 ## Build Iterations
 
 ### Iteration 1 — Data Ingestion Pipeline
-**Status:** Not started
+**Status:** Complete
 **Goal:** Download NLP PDFs → parse → chunk → embed → store in ChromaDB
 **Files:** `src/ingest.py`, `src/arxiv_fetcher.py`, `requirements.txt`, `.gitignore`
 **Key decisions:**
@@ -113,16 +113,23 @@ RAG-chatbot/
 
 ## Current Status
 
-**Active Iteration:** None — Setting up project
-**Last GitHub Push:** None yet
-**Next Action:** Create GitHub repo, set up venv, install dependencies, start Iteration 1
+**Active Iteration:** Iteration 2 — RAG Chain + CLI
+**Last GitHub Push:** Iteration 1
+**Next Action:** Build retriever.py + chain.py, test Q&A in terminal
 
 ---
 
 ## How to Run (updated per iteration)
 
 ```bash
-# Will be filled in after Iteration 1
+# Activate venv
+source .venv/bin/activate
+
+# Step 1: Download papers
+python src/arxiv_fetcher.py
+
+# Step 2: Ingest into ChromaDB
+python src/ingest.py
 ```
 
 ---
